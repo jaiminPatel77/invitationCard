@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="gu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff4e4">
+    <meta name="description"
+        content="ખુશ્બુબેનના સીમંત વિધિનું ભાવભર્યું આમંત્રણ. ૨૫ ઓક્ટોબર ૨૦૨૬, સવારે ૦૯:૩૦ કલાકે, શુભમ હોલ, પોર, વડોદરા.">
+    <title>ખુશ્બુબેનનું સીમંત — પટેલ પરિવારનું આમંત્રણ</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body class="intro-active">
+    <section id="intro-screen" class="intro-screen" aria-label="શુભ પ્રસંગનો પ્રારંભ">
+        <video id="intro-video" playsinline muted autoplay preload="auto" poster="./assets/intro-poster.jpg"
+            aria-label="બાળ કૃષ્ણનું સ્વાગત વિડિયો">
+            <source src="./assets/intro.mp4" type="video/mp4">
+        </video>
+        <div class="intro-shade"></div>
+        <div class="intro-top" style="justify-content:flex-end"><button id="skip-intro" class="skip-intro">આમંત્રણ
+                જુઓ</button></div>
+        <div class="intro-progress" aria-hidden="true"><span id="intro-progress-bar"></span></div>
+    </section>
+    <audio id="background-music" preload="auto" autoplay loop></audio>
+    <main inert id="home" class="invitation-scene"><img class="scene-art" src="./assets/invitation-background.png"
+            alt="" aria-hidden="true">
+        <article class="invitation" id="invitation" aria-label="સીમંત વિધિનું આમંત્રણ">
+            <div class="blessing">॥ શ્રી ગણેશાય નમઃ ॥</div>
+            <div class="rule" aria-hidden="true"></div>
+            <p class="intro">સહર્ષ ખુશાલી સાથે જણાવવાનું કે અમારા કુળદેવી અંબે માતાજી<br class="desktop-break"> અને
+                પૂર્વજોના આશીર્વાદથી</p>
+            <p class="parents"><strong>અ.સૌ. પ્રીતિબેન તથા શ્રી ધર્મેશભાઈ જશભાઈ પટેલ</strong> ના સુપુત્ર</p>
+            <p class="couple">ચિ. <strong>દિપેન</strong> ના ધર્મપત્ની</p>
+            <h1>અ.સૌ. ખુશ્બુબેન</h1>
+            <p class="occasion">ના સીમંત વિધિનું માંગલિક મુહૂર્ત</p>
+            <section id="event" class="event-panel" aria-label="તારીખ અને સમય">
+                <h2>વિક્રમ સંવત ૨૦૮૩ ને આસો સુદ પૂનમ</h2>
+                <p>રવિવાર, તા. ૨૫/૧૦/૨૦૨૬ ના રોજ<br> સવારે ૦૯:૩૦ કલાકે</p>
+                <p>નિર્ધારિત કરેલ છે.</p>
+            </section>
+            <p class="welcome">તો આ શુભ પ્રસંગે માતૃત્વની પહેલી અવિસ્મરણીય ક્ષણને<br class="desktop-break"> આવકારવા
+                અમારું ભાવભર્યું આમંત્રણ છે.</p>
+            <section id="venue" class="venue-panel" aria-label="શુભ સ્થળ">
+                <h2>॥ શુભ સ્થળ ॥</h2>
+                <p>શુભમ હોલ, પોર, વડોદરા.</p>
+            </section>
+            <section class="countdown-section" aria-label="શુભ પ્રસંગ સુધીનો સમય">
+                <p id="countdown-title" class="countdown-title">શુભ પ્રસંગની આતુરતાથી રાહ...</p>
+                <div class="countdown" role="timer" aria-live="off">
+                    <div><strong id="days">૦૦</strong><span>દિવસ</span></div>
+                    <div><strong id="hours">૦૦</strong><span>કલાક</span></div>
+                    <div><strong id="minutes">૦૦</strong><span>મિનિટ</span></div>
+                    <div><strong id="seconds">૦૦</strong><span>સેકન્ડ</span></div>
+                </div>
+            </section>
+            <div class="live-controls"><a class="venue-link" href="https://maps.app.goo.gl/fE2qgEQk6TYwJHFfA"
+                    target="_blank" rel="noopener noreferrer">સ્થળ</a></div>
+            <footer class="family">
+                <div class="rule" aria-hidden="true"></div>
+                <p>લિ. પટેલ પરિવાર ના સ્નેહપૂર્વક<br> જય શ્રી કૃષ્ણ</p>
+            </footer>
+        </article>
+    </main>
+</body>
+
+</html>
